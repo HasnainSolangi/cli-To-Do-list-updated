@@ -1,0 +1,21 @@
+{
+  "name": "cli-todos-tool",
+  "version": "1.0.1",
+  "description": "Simple task manager for command line.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "todo-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasnain Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
